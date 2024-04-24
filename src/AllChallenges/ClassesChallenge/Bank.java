@@ -7,6 +7,27 @@ public class Bank {
     private String email = "default@gmail.com";
     private String phoneNumber = "00000000";
 
+    public Bank() {
+        this("23423", 2.50, "Default Name", "Default Address", "Default Phone");
+        System.out.println("Empty constructor called");
+    }
+
+    public Bank(String accNum, double accBalance, String customerName, String CustomerEmail, String CustomerPhone) {
+        System.out.println("Account constructor with parameters called");
+        this.accNum = accNum;
+        this.accBalance = accBalance;
+        this.customerName = customerName;
+        email = CustomerEmail; // does not have "this" keyword because field name  is different with the parameters name
+        phoneNumber = CustomerPhone; // does not have "this" keyword because field name  is different with the parameters name
+    }
+
+    public Bank(String customerName, String email, String phoneNumber) {
+        this("99999", 100.55, customerName, email, phoneNumber);
+//        this.customerName = customerName;
+//        this.email = email;
+//        this.phoneNumber = phoneNumber;
+    }
+
     public String getAccNum() {
         return accNum;
     }

@@ -2,27 +2,34 @@ package AllChallenges.ClassesChallenge;
 
 public class Main {
     public static void main(String[] args) {
-        Bank bank = new Bank();
+//        Bank testBank = new Bank ("12345", 1000.00,
+//                "Default1", "default@gmail.com",
+//                "0199567842");
+
+        Bank testBank = new Bank();
 
         //Setter
-        bank.setAccNum("90887654");
-        bank.setAccBalance(1000);
-        bank.setCustomerName("James");
-        bank.setEmail("james@gmail.com");
-        bank.setPhoneNumber("0199876543");
+//        testBank.setAccNum("90887654");
+//        testBank.setAccBalance(1000);
+//        testBank.setCustomerName("James");
+//        testBank.setEmail("james@gmail.com");
+//        testBank.setPhoneNumber("0199876543");
 
         //Getter
-        System.out.println("Customer Name - " + bank.getCustomerName());
-        System.out.println("Phone Number - " + bank.getPhoneNumber());
-        System.out.println("Email - " + bank.getEmail());
-        System.out.println("Acc Number - " + bank.getAccNum());
-        System.out.println("Acc Balance - " + bank.getAccBalance());
+        System.out.println("Customer Name - " + testBank.getCustomerName());
+        System.out.println("Phone Number - " + testBank.getPhoneNumber());
+        System.out.println("Email - " + testBank.getEmail());
+        System.out.println("Acc Number - " + testBank.getAccNum());
+        System.out.println("Acc Balance - " + testBank.getAccBalance());
 
-        bank.depositAcc(2000);
+        testBank.depositAcc(2000);
 
-//        bank.withdrawAcc(1000);
+//        testBank.withdrawAcc(1000);
 
-        bank.withdrawAcc(9000);
+        testBank.withdrawAcc(9000);
+
+        Bank timsbank = new Bank("Tim", "tim@gmail.com", "12345");
+        System.out.println("Acc No: " + timsbank.getAccNum() + "; name " + timsbank.getCustomerName());
 
     }
 }
