@@ -7,7 +7,7 @@ public class Bank {
     private String email = "default@gmail.com";
     private String phoneNumber = "00000000";
 
-    public Bank() {
+    public Bank() { //Default Constructor to instantiate object with default value
         this("23423", 2.50, "Default Name", "Default Address", "Default Phone");
         System.out.println("Empty constructor called");
     }

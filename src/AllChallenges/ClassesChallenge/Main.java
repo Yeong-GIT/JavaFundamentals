@@ -6,7 +6,7 @@ public class Main {
 //                "Default1", "default@gmail.com",
 //                "0199567842");
 
-        Bank testBank = new Bank();
+        Bank testBank = new Bank(); // Default Constructors aka no-args constructors
 
         //Setter
 //        testBank.setAccNum("90887654");
