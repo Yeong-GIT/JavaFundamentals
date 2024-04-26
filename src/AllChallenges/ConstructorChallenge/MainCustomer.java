@@ -1,6 +1,6 @@
 package AllChallenges.ConstructorChallenge;
 
-public class Main {
+public class MainCustomer {
 
     public static void main(String[] args) {
         Customer customer = new Customer(); // Default Constructors aka no-args constructors
