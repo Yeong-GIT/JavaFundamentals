@@ -1,6 +1,6 @@
 package AllChallenges.SumCalculator;
 
-public class Main {
+public class MainCalculatorSum {
     public static void main(String[] args) {
         SimpleCalculator calculator = new SimpleCalculator();
         calculator.setFirstNumber(5.0);
