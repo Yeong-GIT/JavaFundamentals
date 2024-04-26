@@ -1,4 +1,4 @@
-package Variables;
+package Variables.Dog;
 
 public class InstanceDog {
     private  String name;

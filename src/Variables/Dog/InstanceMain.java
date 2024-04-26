@@ -1,4 +1,4 @@
-package Variables;
+package Variables.Dog;
 
 public class InstanceMain {
     public static void main(String[] args) {

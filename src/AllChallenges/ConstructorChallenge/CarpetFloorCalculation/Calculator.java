@@ -1,4 +1,4 @@
-package AllChallenges.ConstructorChallenge;
+package AllChallenges.ConstructorChallenge.CarpetFloorCalculation;
 
 public class Calculator {
     private Floor floor;

@@ -1,4 +1,4 @@
-package AllChallenges.ConstructorChallenge;
+package AllChallenges.ConstructorChallenge.Point;
 
 public class MainPoint {
 

@@ -1,4 +1,4 @@
-package AllChallenges.ConstructorChallenge;
+package AllChallenges.ConstructorChallenge.CarpetFloorCalculation;
 
 public class Carpet {
     private double cost;

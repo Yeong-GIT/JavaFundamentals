@@ -1,4 +1,4 @@
-package Variables;
+package Variables.Dog;
 
 public class DogVariable {
     public void bark(){

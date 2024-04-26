@@ -1,4 +1,4 @@
-package Variables;
+package Variables.Calculator;
 
 public class CalculatorVariablesMain {
     public static void main(String[] args) {

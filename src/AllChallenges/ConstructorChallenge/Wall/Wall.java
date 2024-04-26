@@ -1,4 +1,4 @@
-package AllChallenges.ConstructorChallenge;
+package AllChallenges.ConstructorChallenge.Wall;
 
 public class Wall {
     private double width;
