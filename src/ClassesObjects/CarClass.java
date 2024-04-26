@@ -1,8 +1,6 @@
 package ClassesObjects;
 
-import java.util.Locale;
-
-public class Car {
+public class CarClass {
 
     private String make = "Tesla";
     private String model = "Model X";
