@@ -1,8 +1,8 @@
 package Variables;
 
-public class CalculatorMain {
+public class CalculatorVariablesMain {
     public static void main(String[] args) {
-        Calculator.printSum(10, 5);
+        CalculatorVariables.printSum(10, 5);
         printHello();
     }
 
