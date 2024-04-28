@@ -1,4 +1,4 @@
-package Training.DogInheritance;
+package Training.Inheritance;
 
 public class Main {
     public static void main(String[] args) {

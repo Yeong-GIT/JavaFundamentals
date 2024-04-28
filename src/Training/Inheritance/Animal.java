@@ -1,4 +1,4 @@
-package Training.DogInheritance;
+package Training.Inheritance;
 
 public class Animal {
     private String type;
