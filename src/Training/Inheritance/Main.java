@@ -21,7 +21,8 @@ public class Main {
         doberman.barkNoise("Doberman");
         System.out.println("\n\n");
 
-
+        Fish fishy = new Fish("Goldie", 2.5, 10, 10);
+        doSomething(fishy, "fast");
     }
 
     public static void doSomething(Animal genericAnimal, String speed){
