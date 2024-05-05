@@ -1,4 +1,4 @@
-package AllChallenges.ConstructorChallenge.Wall;
+package Constructor.Wall;
 
 public class MainWall {
 

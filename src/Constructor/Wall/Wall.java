@@ -1,10 +1,10 @@
-package AllChallenges.ConstructorChallenge.Wall;
+package Constructor.Wall;
 
 public class Wall {
     private double width;
     private double height;
 
-    public Wall (double width, double height){
+    protected Wall (double width, double height){
         if (width < 0) {
             this.width = 0; // Set width to 0 if parameter is less than 0
         } else {
