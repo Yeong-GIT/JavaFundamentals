@@ -1,4 +1,4 @@
-package AllChallenges.EncapsulationChallenge;
+package AllChallenges.EncapsulationChallenge.HLVersion;
 
 public class Printer {
     private double tonerLevel;

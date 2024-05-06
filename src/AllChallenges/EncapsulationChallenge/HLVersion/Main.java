@@ -1,4 +1,4 @@
-package AllChallenges.EncapsulationChallenge;
+package AllChallenges.EncapsulationChallenge.HLVersion;
 
 public class Main {
     public static void main(String[] args) {
